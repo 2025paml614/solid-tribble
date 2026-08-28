@@ -1,0 +1,158 @@
+[
+    {
+        "run_id": "RUN_001_RIDGE",
+        "timestamp": "2026-08-26 22:11:46",
+        "model_name": "Ridge Baseline",
+        "hyperparameters": {
+            "alpha": 1.0,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 6.50159153982799,
+            "test_rmse": 6.191586092002288,
+            "test_mae": 4.930271300944301,
+            "test_r2": 0.5779944776030277,
+            "training_time_sec": 0.448688268661499
+        }
+    },
+    {
+        "run_id": "RUN_002_GRADIENTBOOSTING",
+        "timestamp": "2026-08-26 22:11:46",
+        "model_name": "GradientBoosting - Safe Default",
+        "hyperparameters": {
+            "n_estimators": 50,
+            "learning_rate": 0.05,
+            "max_depth": 3,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 4.388545625187223,
+            "test_rmse": 4.258079484089906,
+            "test_mae": 3.19970934624109,
+            "test_r2": 0.8004085973802182,
+            "training_time_sec": 0.29975008964538574
+        }
+    },
+    {
+        "run_id": "RUN_003_GRADIENTBOOSTING",
+        "timestamp": "2026-08-26 22:11:47",
+        "model_name": "GradientBoosting - High Performance",
+        "hyperparameters": {
+            "n_estimators": 100,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 1.916236655697691,
+            "test_rmse": 2.1032030421494112,
+            "test_mae": 1.6756013567607824,
+            "test_r2": 0.9513058594769228,
+            "training_time_sec": 0.6055541038513184
+        }
+    },
+    {
+        "run_id": "RUN_001_RIDGE",
+        "timestamp": "2026-08-27 20:39:50",
+        "model_name": "Ridge Baseline",
+        "hyperparameters": {
+            "alpha": 1.0,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 6.501591539827989,
+            "test_rmse": 6.191586092002288,
+            "test_mae": 4.930271300944302,
+            "test_r2": 0.5779944776030279,
+            "training_time_sec": 0.19030284881591797
+        }
+    },
+    {
+        "run_id": "RUN_002_GRADIENTBOOSTING",
+        "timestamp": "2026-08-27 20:39:50",
+        "model_name": "GradientBoosting - Safe Default",
+        "hyperparameters": {
+            "n_estimators": 50,
+            "learning_rate": 0.05,
+            "max_depth": 3,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 4.388545625187223,
+            "test_rmse": 4.258079484089906,
+            "test_mae": 3.19970934624109,
+            "test_r2": 0.8004085973802182,
+            "training_time_sec": 0.28356385231018066
+        }
+    },
+    {
+        "run_id": "RUN_003_GRADIENTBOOSTING",
+        "timestamp": "2026-08-27 20:39:51",
+        "model_name": "GradientBoosting - High Performance",
+        "hyperparameters": {
+            "n_estimators": 100,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 1.916236655697691,
+            "test_rmse": 2.1032030421494112,
+            "test_mae": 1.6756013567607824,
+            "test_r2": 0.9513058594769228,
+            "training_time_sec": 0.6998460292816162
+        }
+    },
+    {
+        "run_id": "RUN_001_RIDGE",
+        "timestamp": "2026-08-28 12:37:45",
+        "model_name": "Ridge Baseline",
+        "hyperparameters": {
+            "alpha": 1.0,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 6.501591539827989,
+            "test_rmse": 6.191586092002288,
+            "test_mae": 4.930271300944302,
+            "test_r2": 0.5779944776030279,
+            "training_time_sec": 0.14505434036254883
+        }
+    },
+    {
+        "run_id": "RUN_002_GRADIENTBOOSTING",
+        "timestamp": "2026-08-28 12:37:45",
+        "model_name": "GradientBoosting - Safe Default",
+        "hyperparameters": {
+            "n_estimators": 50,
+            "learning_rate": 0.05,
+            "max_depth": 3,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 4.388545625187223,
+            "test_rmse": 4.258079484089906,
+            "test_mae": 3.19970934624109,
+            "test_r2": 0.8004085973802182,
+            "training_time_sec": 0.14903688430786133
+        }
+    },
+    {
+        "run_id": "RUN_003_GRADIENTBOOSTING",
+        "timestamp": "2026-08-28 12:37:46",
+        "model_name": "GradientBoosting - High Performance",
+        "hyperparameters": {
+            "n_estimators": 100,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "random_state": 42
+        },
+        "metrics": {
+            "train_rmse": 1.916236655697691,
+            "test_rmse": 2.1032030421494112,
+            "test_mae": 1.6756013567607824,
+            "test_r2": 0.9513058594769228,
+            "training_time_sec": 0.3514726161956787
+        }
+    }
+]

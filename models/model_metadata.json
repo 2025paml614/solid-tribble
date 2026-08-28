@@ -1,0 +1,26 @@
+{
+    "run_id": "RUN_003_GRADIENTBOOSTING",
+    "model_name": "GradientBoosting - High Performance",
+    "hyperparameters": {
+        "n_estimators": 100,
+        "learning_rate": 0.1,
+        "max_depth": 4,
+        "random_state": 42
+    },
+    "metrics": {
+        "train_rmse": 1.916236655697691,
+        "test_rmse": 2.1032030421494112,
+        "test_mae": 1.6756013567607824,
+        "test_r2": 0.9513058594769228,
+        "training_time_sec": 0.3514726161956787
+    },
+    "feature_cols": [
+        "distance_km",
+        "hour_of_day",
+        "day_of_week",
+        "is_weekend",
+        "weather_Clear",
+        "weather_Rainy",
+        "weather_Snowy"
+    ]
+}

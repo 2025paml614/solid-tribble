@@ -1,0 +1,27 @@
+{
+    "initial_rows": 5000,
+    "duplicate_ids_dropped": 0,
+    "invalid_gps_dropped": 75,
+    "invalid_time_dropped": 25,
+    "invalid_duration_dropped": 50,
+    "final_valid_rows": 4851,
+    "success_rate": 0.9702,
+    "engineered_features_count": 15,
+    "final_feature_columns": [
+        "trip_id",
+        "pickup_datetime",
+        "pickup_latitude",
+        "pickup_longitude",
+        "dropoff_latitude",
+        "dropoff_longitude",
+        "weather",
+        "actual_duration",
+        "distance_km",
+        "hour_of_day",
+        "day_of_week",
+        "is_weekend",
+        "weather_Clear",
+        "weather_Rainy",
+        "weather_Snowy"
+    ]
+}

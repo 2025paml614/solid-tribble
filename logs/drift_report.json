@@ -1,0 +1,7 @@
+{
+    "monitoring_status": "Drift Resolved & Retrained",
+    "drift_detection_step": 350,
+    "old_rmse_on_drift": 12.90465400808656,
+    "new_rmse_on_drift": 12.879780970467475,
+    "accuracy_improvement_pct": 0.19274470747916062
+}
