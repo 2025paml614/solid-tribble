@@ -17,7 +17,7 @@ pickup_lon = st.sidebar.number_input("Pickup Longitude", value=77.5946, format="
 dropoff_lat = st.sidebar.number_input("Dropoff Latitude", value=12.9352, format="%.4f")
 dropoff_lon = st.sidebar.number_input("Dropoff Longitude", value=77.6245, format="%.4f")
 
-weather = st.sidebar.selectbox("Weather Condition", ["Clear", "Rainy", "Snowy", "Foggy"])
+weather = st.sidebar.selectbox("Weather Condition", ["Clear", "Rainy", "Snowy"])
 pickup_time = st.sidebar.time_input("Pickup Time", value=datetime.now().time())
 pickup_date = st.sidebar.date_input("Pickup Date", value=datetime.now().date())
 
